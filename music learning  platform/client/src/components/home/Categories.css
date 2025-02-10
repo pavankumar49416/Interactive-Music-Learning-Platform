@@ -1,0 +1,37 @@
+.categories-container {
+    padding: 20px;
+}
+
+.create-blog-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #f87f07e7; /* Bootstrap primary color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.create-blog-button:hover {
+    background-color: #cb7a24; /* Darker shade on hover */
+}
+
+.categories-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.categories-table th, .categories-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.categories-table td:hover {
+    background-color: #f8f6f4; /* Light gray background on hover for text */
+}
+
+.highlighted-text {
+    color: #cb7a24; /* Change this to your desired highlight color */
+    font-weight: bold; /* Optional: make the text bold */
+}
